@@ -1,12 +1,17 @@
 let map;
 
-async function initMap() {
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: 21.814, lng: -102.768 },
+function initMap() {
+  const myLatLng = { lat: 21.814, lng: -102.768 };
+  const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
+    center: myLatLng,
+  });
+
+  new google.maps.Marker({
+    position: myLatLng,
+    map,
+    title: "Universidad Tecnológica de Calvillo!",
   });
 }
 
-initMap();
+window.initMap = initMap;
