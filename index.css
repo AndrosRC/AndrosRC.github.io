@@ -14,7 +14,7 @@ header {
     text-align: center;
 }
 
-.api1, .api2, .api3, .api4, .api5, .api6, .api7 {
+.api1, .api2, .api3, .api4, .api5, .api6, .api7, .api8 {
     background-color: aquamarine;
     flex: 1 1 calc(20%);
     box-sizing: border-box;
@@ -23,13 +23,13 @@ header {
     padding: 3%;
 }
 
-.botonA1, .botonA2, .botonA3, .botonA4, .botonA5, .botonA6, .botonA7 {
+.botonA1, .botonA2, .botonA3, .botonA4, .botonA5, .botonA6, .botonA7, .botonA8 {
     background-color: #007BFF;
     color: white;
     border: none;
     cursor: pointer;
 }
 
-.botonA1:hover, .botonA2:hover, .botonA3:hover, .botonA4:hover, .botonA5:hover, .botonA6:hover, .botonA7:hover {
+.botonA1:hover, .botonA2:hover, .botonA3:hover, .botonA4:hover, .botonA5:hover, .botonA6:hover, .botonA7:hover, .botonA8:hover {
     background-color: #0056b3;
 }
